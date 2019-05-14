@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
 	return 0;
 }
 
+
 int checkMatrixIteration(double matrix[][S]) {
 	int deletedRows = 0;
 	for (int i = 0; i < R - deletedRows; ) {
